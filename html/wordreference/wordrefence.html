@@ -1,37 +1,74 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"><!--Muder o Icone-->
         
         <title>WordReference</title> <!--Titulo da Aba-->   
     </head>
     <body>
         <header>
-            <span>Language Forums Direct Links to English Dictionaries  Grammar & Usage  Verb Conjugators  Tools  Word of the Day  Listsd</span> <!--O que está escrito dentro do header-->
+            <nav class="topo">
+                <a class="topicos" href="#">Language Forums</a>
+                <a class="topicos" href="#">Direct Links to English Dictionaries</a>
+                <a class="topicos" href="#">Grammar & Usage</a>
+                <a class="topicos" href="#">Verb Conjugators</a>
+                <a class="topicos" href="#">Tools</a>
+                <a class="topicos" href="#">Word of the Day</a>
+                <a class="topicos" href="#">Lists</a>
+            </nav> <!--Navegações do header-->
         </header>
         <main>
-            <h1>Wordreference.com</h1> <!--Primeiro titulo-->
-            <input type="text"> <!--Imagem da barra de pesquisa-->
-            <section>
-                <p>French-English</p> <!--Onde seleciona para qual idioma traduzir-->
+            <h1>
+                <div
+                ><span class="wordreference">WordReference</span>
+                <span class="pontocom">.com</span>
+                </div> <!--Titulo WordReference-->
+            </h1>
+            <!--Primeiro titulo-->
+            <div class="inputprincipal">
+                <input id="input1" type="text">
+            </div> <!--Imagem da barra de pesquisa-->
+
+            <br> <!--Gambiarra para espaçar-->
+
+           <section class="trocaidioma">
+               <select name="Idioma" id="seletor"></select> <!--Seletor-->
             </section>
-            <section>
-                Español Français Italiano Português Català Deutsch Svenska Nederlands
-                Русский Polski Română Čeština Ελληνικά Türkçe
-                英汉词典 英和辞書 영-한 사전 قاموس إنجليزي - عربي
-                Virtual dictionaries for non-English language pairs <!--Idiomas que você pode escolher usar o WordReference-->
+            <section class="idiomas">
+                <nav>
+                    <a href="#">Español</a>
+                    <a href="#">Français</a>
+                    <a href="#">Italiano</a>
+                    <a href="#">Português</a>
+                    <a href="#">Català</a>
+                    <a href="#">Deutsch</a>
+                    <a href="#">Svenska</a>
+                    <a href="#">Nederlands</a>
+                    <a href="#">Русский</a>
+                    <a href="#">Polski</a>
+                    <a href="#">Română</a>
+                    <a href="#">Čeština </a>
+                    <a href="#">Ελληνικά</a>
+                    <a href="#">Türkçe</a>
+                    <a href="#">英汉词典</a>
+                    <a href="#">英和辞書</a>
+                    <a href="#">영-한 사전</a>
+                    <a href="#">قاموس إنجليزي - عربي</a>
+                    <a href="#">Virtual dictionaries for non-English language pairs</a>
+                </nav><!--Idiomas que você pode escolher usar o WordReference-->
             </section>
             <section>
                 <article>
                     <h2>Spanish Dictionaries</h2>
-                    <p>There are two free Spanish-English dictionaries: our own dictionary and one from Collins. Each has its own strengths. Combined, they are unbeatable.</p>
+                    <p class="spanish">There are two free Spanish-English dictionaries: our own dictionary and one from Collins. Each has its own strengths. Combined, they are unbeatable.</p>
                 </article>
                 <article>
                     <h2>French and Italian Dictionaries</h2>
-                    <p>WordReference has two of its own dictionaries plus those of Collins. The French dictionary has over 250,000 translations and the Italian dictionary has nearly 200,000. These dictionaries continue to grow and improve as well. If you don't find what you are looking for in any of t'he dictionaries, search or ask in the forums.</p>
+                    <p class="spanish">WordReference has two of its own dictionaries plus those of Collins. The French dictionary has over 250,000 translations and the Italian dictionary has nearly 200,000. These dictionaries continue to grow and improve as well. If you don't find what you are looking for in any of t'he dictionaries, search or ask in the forums.</p>
                 </article>
                 <article>
                     <h2>Language Forums</h2>
-                    <p>The WordReference language forum is the largest repository of knowledge and advice about the English language, as well as a number of other languages. If you have a question about language usage, first search the hundreds of thousands of previous questions. If you still are unsure, then you can ask the question yourself. Native speakers from around the world will be happy to assist you<p>
+                    <p class="spanish">The WordReference language forum is the largest repository of knowledge and advice about the English language, as well as a number of other languages. If you have a question about language usage, first search the hundreds of thousands of previous questions. If you still are unsure, then you can ask the question yourself. Native speakers from around the world will be happy to assist you<p>
                 </article>
             </section>
 

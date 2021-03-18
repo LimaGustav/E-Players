@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    background-color: #5E58C6;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.topicos {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.wordreference{
+    color: #5e58c6;
+}
+.pontocom{
+    color: #b2aef4;
+}
+.inputprincipal{
+    text-align: center;
+}
+#input1{
+    width: 450px;
+    height: 30px;
+    background-color: #f6f6f6;
+}
+.trocaidioma{
+    display: flex;
+    justify-content: center;
+}
+#seletor{
+    width: 150px;
+}
+.idiomas{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: blue;
+    background-color: rgb(163, 163, 163);
+}
+.spanish{
+    background-color: #c2c1c1;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
