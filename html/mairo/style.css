@@ -1,0 +1,38 @@
+* {
+   margin-top: 7px;
+   margin-left: 40px;
+   margin-right: 40px;
+   padding: 0;
+   box-sizing: border-box; 
+}
+.navegaçao{
+    background-color: black;
+    height: 50px;
+}
+.decoraçao {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.espaçamento {
+    display: flex;
+    justify-content: space-between;
+}
+.pequenas{
+    display: flex;
+    justify-content: left;
+}
+.artigos {
+    display flex: ;
+}
+.descimagem {
+    font-size: 25px;
+}
+.lado {
+    display: flex;
+    
+}
+.seguir {
+    color: white;
+    background-color: black;
+}
