@@ -155,18 +155,61 @@ else {
 
 //Switch... Case
 
-let permissao 
+let permissao
+let nivel
+
+function reconheceUsuario(nvl, name) {
+    nome = name
+    nivel = nvl
+    if (nivel == 1) {
+        permissao = 'comun'
+    }
+
+    else if (nivel == 2) {
+        permissao = 'gerente'
+    }
+
+    else if (nivel == 3) {
+        permissao = 'diretor'
+    }
+
+    else {
+        permissao = 'comum'
+    }
+}
+
+reconheceUsuario(5, 'Bruno')
 
 switch (permissao) {
     case 'comun' :
-        console.log('Usuario Comun')
+        console.log('Usuario Comun',nome)
     break
 
     case 'gerente':
-        console.log('Gerente')
+        console.log('Gerente',nome)
     break
 
     case 'diretor':
-        console.log('Diretor')
+        console.log('Diretor',nome)
     break
+
+    default:
+        console.log('Usuario não reconhecido')
+}
+
+console.log(nivel)
+
+//Loop for
+
+// for(let i = 1; i < 11; i++) {
+//     console.log (i)
+// }
+
+//Loop while
+
+let i = 5
+
+while (i >= 1) {
+    console.log(i)
+    i--
 }
