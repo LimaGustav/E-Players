@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f2f6;
+}
+
+.container_titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    color: #dfe6e9;
+    background-color: #2d3436;
+}
+
+.container_imagen {
+    display: flex;
+    justify-content: center;
+    background-color: #b2bec3;
+}
+
+.container_h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
