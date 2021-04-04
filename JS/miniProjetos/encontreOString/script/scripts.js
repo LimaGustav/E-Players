@@ -1,9 +1,6 @@
 // Criar um metodo para ler propriedades de um objeto
 // Exibir somente as propriedades do tipo string deste objeto
 
-let mensagem = mostraString()
-console.log(mensagem)
-
 let filme = {
     titulo :'vingadores',
     ano : 2016,
@@ -11,8 +8,12 @@ let filme = {
     assisti : 'sim',
 }
 
-console.log()
+mostraString(filme)
 
 function mostraString(obj) {
-    
+    for (i in obj) {
+        if (typeof obj[i] == 'string') {
+            console.log(i, obj[i])
+        }
+    }
 }
