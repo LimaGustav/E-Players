@@ -1,0 +1,81 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid {
+    width: 90%;
+    max-width: 1200px;
+
+    margin: 0 auto;
+}
+
+
+
+
+/* HEADER */
+
+header {
+    height: 80px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    
+    background-color: #1E1C21;
+}
+
+.container_header {
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 230px;
+}
+
+.nav_header {
+    width: 65%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.nav_header a {
+    color: white;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(../assets/Imagem\ banner.png);
+
+    height: 632px;
+    background-size: cover;
+    background-position: right 50% center;
+
+    margin-top: 79px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
