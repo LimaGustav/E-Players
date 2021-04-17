@@ -1,3 +1,8 @@
+/* FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap');
+
+
 /* RESET */
 
 * {
@@ -67,15 +72,94 @@ header {
 /* BANNER */
 
 .banner {
-    background-image: url(../assets/Imagem\ banner.png);
-
+    display: flex;
+    justify-content: space-around;
+    
+    background: linear-gradient(86.53deg, #33467C 0%, #33467C 41.44%, #010000 59.72%, #000000 97.5%);
+    
     height: 632px;
-    background-size: cover;
-    background-position: right 50% center;
+    
+    margin-top: 80px;
+}
 
-    margin-top: 79px;
+#img_capa {
+    width: 634px;
+}
+
+.container_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_banner {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.box_banner h1 {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 110px;
+
+    color: white;
+}
+
+.box_banner span {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 35px;
+
+    color: white;
+}
+
+
+.btn_inscreva_se {
+    width: 240px;
+    height: 60px;
+
+    border-radius: 13px;
+    border: none;
+
+    background-color: #001AFF;
+
+    cursor: pointer;
+
+    margin-top: 67px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.btn_inscreva_se:hover {
+    background-color: #1100ff;
+}
+
+/* JOGOS */
+
+.jogos {
+    background-color: #020202;
+
+    height: 120px;
+}
+
+.container_jogos {
+    height: 100%;
 
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/* COMO PARTICIPAR */
+
