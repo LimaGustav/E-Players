@@ -163,3 +163,17 @@ header {
 
 /* COMO PARTICIPAR */
 
+.como_participar {
+    height: 544px;
+
+    background-image: url(../assets/como_participar_fundo.png);
+
+}
+
+.inclinado {
+    clip-path: polygon(0 31%, 100% 0, 100% 69%, 0 99%);
+
+    background-color: black;
+
+    height: 100%;
+}
