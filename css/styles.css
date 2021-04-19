@@ -440,7 +440,13 @@ hr {
 
 .box_footer {
     display: flex;
-    
+    align-items: center;
+
+    height: 100%;
+}
+
+.engloba_links {
+    height: 50%;
 }
 
 .span_grande_footer {
@@ -452,8 +458,13 @@ hr {
     color: white;
 }
 
+.lista_footer {
+    padding-top: 10px;
+}
+
 .lista_footer li {
     color: white;
+    margin: 8px 0;
 }
 
 .lista_footer li::marker {
@@ -475,6 +486,34 @@ hr {
     color: #FFFFFF;
 }
 
+#input_email {
+    width: 222px;
+    height: 44px;
+}
+
+.btn_cadastrar {
+    width: 129px;
+    height: 44px;
+
+    background-color: #001F70;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: white;
+
+    border: none;
+}
+
+.btn_cadastrar:hover {
+    background-color: #001549;
+
+    cursor: pointer;
+}
+
 .siga_nos {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -482,4 +521,9 @@ hr {
     line-height: 29px;
     
     color: #FFFFFF;
+
+    margin-top: 30px;
+    width: 346px;
+
+    align-items: center;
 }
