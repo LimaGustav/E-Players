@@ -167,13 +167,44 @@ header {
     height: 544px;
 
     background-image: url(../assets/como_participar_fundo.png);
+    background-color: black;
+
+    background-size: cover;
 
 }
 
 .inclinado {
-    clip-path: polygon(0 31%, 100% 0, 100% 69%, 0 99%);
+    clip-path: polygon(0 18%, 100% 0, 100% 84%, 0 100%);
 
     background-color: black;
 
     height: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.container_como_participar {
+    height: 68%;
+}
+
+.container_como_participar h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 58px;
+
+    color: white;
+}
+
+.container_como_participar p {
+    width: 40vw;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
+    margin-bottom: 4%;
+
+    color: white;
 }
