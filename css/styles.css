@@ -33,7 +33,7 @@ header {
 
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     
     background-color: #1E1C21;
 }
@@ -148,9 +148,9 @@ header {
 /* JOGOS */
 
 .jogos {
-    background-color: #020202;
-
     height: 120px;
+
+    background-color: #020202;
 }
 
 .container_jogos {
@@ -171,17 +171,28 @@ header {
 
     background-size: cover;
 
+    position: relative; 
+}
+
+.ez_img {
+    position: absolute;
+
+    top: -4px;
+    right: 80px;
+    z-index: 1;
 }
 
 .inclinado {
     clip-path: polygon(0 18%, 100% 0, 100% 84%, 0 100%);
-
+    
     background-color: black;
 
     height: 100%;
 
     display: flex;
     align-items: center;
+
+    
 }
 
 .container_como_participar {
@@ -205,6 +216,75 @@ header {
     line-height: 30px;
 
     margin-bottom: 4%;
+
+    color: white;
+}
+
+
+/* AO VIVO */
+
+.ao_vivo {
+    height: 120px;
+
+    background-color: #020202;
+
+}
+
+.container_ao_vivo {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.span_ao_vivo {
+    width: 30px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 31px;
+    text-transform: uppercase;
+
+    color: white;
+}
+
+.times_ao_vivo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 240px;
+}
+
+.vs_ao_vivo {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: white;
+}
+
+hr {
+    display: flex;
+    flex-direction: column;
+
+    height: 80px;
+
+    border: 2px solid #FFFFFF;
+}
+
+.span_em_breve {
+    width: 91px;
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 31px;
+    text-transform: uppercase;
 
     color: white;
 }
