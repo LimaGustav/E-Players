@@ -9,38 +9,28 @@
 </head>
 <body>
     <header>
-        <div class="container_header grid">
-
-            <a id="logo" href=""><img src="assets/logo.svg" alt=""></a>
-
-            <nav class="nav_header">
-                <a href="">início</a>
-                <a href="">horários</a>
-                <a href="">campeonato</a>
-                <a href="">classificações</a>
-                <a href="">notícias</a>
-            </nav>
-        </div>
+        <iframe src="nav_header.html" style="height: 100%;
+        width: 100%;" frameborder="0"></iframe>
     </header>
 
     <!-- HEADER -->
 
     <main>
-        <section class="banner">
+        <section id="inicio" class="banner">
             <img  id="img_capa" src="assets/img_banner.png" alt="Tres personagems do valorant juntos"> 
             <div class="container_banner">
 
                 <div class="box_banner">
                     <h1>Liga E-Players</h1>
                     <span>O maior portal de campeonatos online</span>
-                    <a class="btn_banner" href=""><button class="btn_inscreva_se">inscreva-se</button></a>
+                    <a class="btn_banner" href="cadastro.html" target="_self"><button class="btn_inscreva_se">inscreva-se</button></a>
                 </div>
             </div>
         </section>
 
         <!-- JOGOS -->
 
-        <section class="jogos">
+        <section id="jogos" class="jogos">
             <div class="container_jogos grid">
                 <a href=""><img src="assets/formula-1-logo.svg" alt="Logo da formula 1"></a>
 
@@ -227,53 +217,7 @@
     <!-- FOOTER -->
 
     <footer class="footer">
-        <div class="box_footer space_btw grid">
-
-            <div class="engloba_links">
-                <span class="span_grande_footer">Links Úteis</span>
-                <ul class="lista_footer">
-                    <li><a href="">Regras de utilização</a></li>
-                    <li><a href="">Suport</a></li>
-                    <li><a href="">Central de ajuda</a></li>
-                    <li><a href="">Mande nos uma mensagem</a></li>
-                </ul>
-            </div>
-
-            <div class="engloba_links">
-                <span class="span_grande_footer">Páginas</span>
-
-                <ul class="lista_footer">
-                    <li><a href="">Ínicio</a></li>
-                    <li><a href="">Campeonatos</a></li>
-                    <li><a href="">Classificações</a></li>
-                    <li><a href="">Notícias</a></li>
-                    <li><a href="">Login/Cadastro</a></li>
-                </ul>
-            </div>
-
-            <img src="assets/logo.svg" alt="">
-
-            <div class="media">
-
-                <span class="newsletter_escrita">Faça parte do nosso clan, assine nossa newsletter! </span>
-
-                <div class="flex">
-                    <input type="text" name="E-mail" placeholder="E-mail" id="input_email">
-                    
-                    <button class="btn_cadastrar">cadastrar</button>
-                </div>
-
-                <div class="flex space_btw siga_nos">
-                    <span>Siga-nos em:</span>
-                    <img src="assets/facebook.png" alt="">
-                    <img src="assets/instagram.png" alt="">
-                    <img src="assets/youtube.png" alt="">
-                </div>
-
-
-            </div>
-
-        </div>
+        <iframe src="footer.html" style="height: 289px; width: 100%; margin: 0;" frameborder="0"></iframe>
     </footer>
 </body>
 </html>

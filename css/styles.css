@@ -17,6 +17,8 @@ html {
     font-family: 'Titillium Web', sans-serif;
 
     font-size: 62.5%;
+
+    scroll-behavior: smooth;
 }
 
 a {
