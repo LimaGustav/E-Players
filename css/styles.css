@@ -13,6 +13,12 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Titillium Web', sans-serif;
+
+    font-size: 62.5%;
+}
+
 a {
     text-decoration: none;
 }
@@ -62,8 +68,8 @@ header {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
     text-transform: uppercase;
 }
 
@@ -101,7 +107,6 @@ header {
 }
 
 .box_banner h1 {
-    font-family: 'Titillium Web', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -115,7 +120,6 @@ header {
 }
 
 .box_banner span {
-    font-family: 'Titillium Web', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 23px;
@@ -128,6 +132,8 @@ header {
 .btn_inscreva_se {
     width: 240px;
     height: 60px;
+
+    
 
     border-radius: 13px;
     border: none;
@@ -204,7 +210,6 @@ header {
 }
 
 .container_como_participar h2 {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 38px;
     line-height: 58px;
@@ -215,7 +220,6 @@ header {
 .container_como_participar p {
     width: 40vw;
 
-    font-family: 'Titillium Web', sans-serif;
     font-size: 20px;
     line-height: 30px;
 
@@ -236,7 +240,6 @@ header {
 
 .container_ao_vivo {
     height: 100%;
-    width: 100%;
 
     display: flex;
     align-items: center;
@@ -246,10 +249,9 @@ header {
 .span_ao_vivo {
     width: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 31px;
+    font-size: 3rem;
+    line-height: 3.1rem;
     text-transform: uppercase;
 
     color: white;
@@ -264,10 +266,9 @@ header {
 }
 
 .vs_ao_vivo {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 2rem;
+    line-height: 3rem;
 
     color: white;
 }
@@ -284,10 +285,9 @@ hr {
 .span_em_breve {
     width: 91px;
 
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 31px;
+    font-size: 3rem;
+    line-height: 3.1rem;
     text-transform: uppercase;
 
     color: white;
@@ -330,7 +330,6 @@ hr {
 .noticias h2 {
     margin-top: 30px;
 
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 30px;
     line-height: 46px;
@@ -353,7 +352,6 @@ hr {
 }
 
 .box_noticia h3 {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 20px;
     line-height: 30px;
@@ -368,9 +366,8 @@ hr {
 .box_noticia p {
     width: 199px;
 
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 
     color: white;
 
@@ -386,7 +383,6 @@ hr {
 }
 
 .proximos_jogos h2 {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 30px;
     line-height: 46px;
@@ -420,7 +416,6 @@ hr {
 }
 
 .data_proximos_jogos {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
     font-size: 18px;
 
@@ -443,42 +438,42 @@ hr {
 }
 
 .engloba_links {
-    height: 50%;
+    height: 60%;
 }
 
 .span_grande_footer {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 46px;
+    font-size: 3rem;
+    line-height: 4.6rem;
 
     color: white;
 }
 
 .lista_footer {
     padding-top: 10px;
+    padding-left: 30px;
 }
 
 .lista_footer li {
     color: white;
-    margin: 8px 0;
+    margin: 0;
+    line-height: 25px;
 }
 
 .lista_footer li::marker {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .lista_footer li a {
     font-family: 'Roboto', sans-serif;
-
+    font-size: 13px;
     color: white;
 }
 
 .newsletter_escrita {
-    font-family: 'Titillium Web', sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     
     color: #FFFFFF;
 }
@@ -488,6 +483,10 @@ hr {
     height: 44px;
 
     margin-top: 20px;
+}
+
+#input_email::placeholder {
+    font-size: 30px;
 }
 
 .btn_cadastrar {
@@ -500,8 +499,8 @@ hr {
 
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
     text-transform: uppercase;
     
     color: white;
@@ -527,4 +526,19 @@ hr {
     width: 346px;
 
     align-items: center;
+}
+
+
+@media (max-width: 1054px) {
+    .noticias_proximos_jogos {
+        height: 1380px;
+    }
+
+    .noticias {
+        align-items: center;
+    }
+
+    .posicionador_noticias {
+        justify-content: space-evenly;
+    }
 }
