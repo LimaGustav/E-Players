@@ -32,6 +32,17 @@ a {
     margin: 0 auto;
 }
 
+#inicio:target {
+    scroll-margin-top: 100px;
+}
+
+#como_participar:target {
+    scroll-margin-top: 100px;
+}
+
+#noticias:target {
+    scroll-margin-top: 50px;
+}
 
 
 
@@ -61,7 +72,8 @@ header {
 }
 
 .nav_header {
-    width: 65%;
+    width: 66%;
+    max-width: 74.3rem;
 
     display: flex;
     justify-content: space-between;
@@ -264,7 +276,7 @@ header {
     align-items: center;
     justify-content: space-between;
 
-    width: 240px;
+    width: 24rem;
 }
 
 .vs_ao_vivo {
@@ -345,7 +357,7 @@ hr {
     margin-bottom: 69px;
 
     width: 211px;
-    height: 351px;
+    height: 35rem;
 
     background: linear-gradient(180deg, #2B2B2B 0%, #2B2B2B 66.67%, #000000 100%);
 
@@ -454,6 +466,8 @@ hr {
 .lista_footer {
     padding-top: 10px;
     padding-left: 30px;
+
+    width: max-content;
 }
 
 .lista_footer li {
@@ -530,10 +544,47 @@ hr {
     align-items: center;
 }
 
+#iframe_footer {
+    width: 100%;
+    height: 289px;
+}
+
+@media (max-width: 1154px) {
+    .ez_img {
+        right: 20px;
+    }
+}
+
 
 @media (max-width: 1054px) {
+    html {
+        font-size: 50%;
+    }
+
+    .banner {
+        height: 500px;
+    }
+
+    #img_capa {
+        display: none;
+    }
+
+    .container_como_participar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container_como_participar p {
+        width: 66vw;
+    }
+
+    .ez_img {
+        display: none;
+    }
+
     .noticias_proximos_jogos {
-        height: 1380px;
+        height: 1170px;
     }
 
     .noticias {
@@ -542,5 +593,61 @@ hr {
 
     .posicionador_noticias {
         justify-content: space-evenly;
+    }
+
+    .footer {
+        height: 600px;
+    }
+
+    #iframe_footer {
+        height: 597px;
+    }
+
+    .box_footer {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .span_grande_footer {
+        font-size: 3.3rem;
+    }
+
+    .lista_footer li a {
+        font-size: 16px;
+    }
+
+    .newsletter_escrita {
+        font-size: 2rem;
+    }
+
+    #input_email {
+        width: 50vw;
+    }
+
+    .logo {
+        order: 1;
+        width: 43vw;
+    }
+
+    .links_footer {
+        order: 2;
+    }
+
+    .media {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .email_newsletter {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 980px) {
+    html {
+        font-size: 40%;
     }
 }
