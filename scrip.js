@@ -21,7 +21,13 @@ const navSlide = () => {
         burguer.classList.toggle('toggle')
 
     })
+}
 
+const navSome = () => {
+    navLinks.addEventListener("click", () => {
+        nav.classList.toggle('nav_ativa')
+    })
 }
 
 navSlide()
+navSome()
