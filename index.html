@@ -8,10 +8,12 @@
     <title>E-Players</title>
 </head>
 <body>
+    <!-- HEADER -->
+
     <header>
         <div class="container_header grid">
 
-            <a id="logo" href="index.html#inicio" target="_parent"><img src="assets/logo.svg" alt=""></a>
+            <a href="index.html#inicio" target="_parent"><img id="logo" src="assets/logo.svg" alt=""></a>
         
             <nav class="nav_header">
                 <a href="index.html#inicio" target="_parent">início</a>
@@ -29,7 +31,7 @@
         </div>
     </header>
 
-    <!-- HEADER -->
+    <!-- BANNER -->
 
     <main>
         <section id="inicio" class="banner">
@@ -48,15 +50,15 @@
 
         <section id="jogos" class="jogos">
             <div class="container_jogos grid">
-                <a href=""><img class="img_jogos" src="assets/formula-1-logo.svg" alt="Logo da formula 1"></a>
+                <a href=""><img id="f1" class="img_jogos" src="assets/formula-1-logo.svg" alt="Logo da formula 1"></a>
 
-                <a href=""><img class="img_jogos" src="assets/logo-lol.svg" alt="Logo do League of Legends"></a>
+                <a href=""><img id="lol" class="img_jogos" src="assets/logo-lol.svg" alt="Logo do League of Legends"></a>
 
-                <a href=""><img class="img_jogos" src="assets/Counter-Strike-Logo.svg" alt="Logo do Counter Strike"></a>
+                <a href=""><img id="cs" class="img_jogos" src="assets/Counter-Strike-Logo.svg" alt="Logo do Counter Strike"></a>
 
-                <a href=""><img class="img_jogos" src="assets/valorant-logo.svg" alt="Logo do Valorant"></a>
+                <a href=""><img id="valorant" class="img_jogos" src="assets/valorant-logo.svg" alt="Logo do Valorant"></a>
 
-                <a href=""><img class="img_jogos" src="assets/FIFA_logo.svg" alt="Logo do fifa"></a>
+                <a href=""><img id="fifa" class="img_jogos" src="assets/FIFA_logo.svg" alt="Logo do fifa"></a>
             </div>
         </section>
 
@@ -117,7 +119,7 @@
 
         <section id="noticias" class="noticias_proximos_jogos">
             
-            <div class="grid flex space_btw">
+            <div class="grid flex space_btw container_noticias">
                 <section class="noticias">
                     <h2>noticias</h2>
                     <div class="posicionador_noticias">
@@ -229,15 +231,13 @@
 
         </section>
     </main>
+    <!-- SCRIPT -->
+    <script src="scrip.js"></script>
 
     <!-- FOOTER -->
 
     <footer class="footer">
-        <iframe id="iframe_footer" src="footer.html" frameborder="0"><iframe>
+        <iframe id="iframe_footer" src="componentes/footer.html" frameborder="0"><iframe>
     </footer>
-
-    <!-- SCRIPT -->
-
-<script src="scrip.js"></script>
 </body>
 </html>

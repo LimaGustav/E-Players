@@ -101,6 +101,8 @@ header {
     margin: 5px;
 
     background-color: white;
+
+    transition: all 0.3s ease;
 }
 
 /* BANNER */
@@ -545,8 +547,9 @@ hr {
 
 .newsletter_escrita {
     font-weight: bold;
-    font-size: 1.6rem;
-    line-height: 2.4rem;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
     
     color: #FFFFFF;
 }
@@ -674,11 +677,12 @@ hr {
     }
 
     .newsletter_escrita {
-        font-size: 2rem;
+        font-size: 18px;
     }
 
     #input_email {
         width: 50vw;
+        min-width: 466px;
     }
 
     .logo {
@@ -755,6 +759,10 @@ hr {
 }
 
 @media (max-width: 784px) {
+    .jogos {
+        height: 80px;
+    }
+
     .box_noticia2 {
         display: none;
     }
@@ -766,14 +774,18 @@ hr {
         overflow-x: hidden;
     }
 
+    #logo {
+        width: 50vw;
+    }
+
     .nav_header {
         position: absolute;
         right: 0;
         z-index: 10;
         
-        height: 92vh;
+        height: 89vh;
         width: 50%;
-        top: 6vh;
+        top: 80px;
 
         display: flex;
         flex-direction: column;
@@ -798,4 +810,185 @@ hr {
    .nav_ativa {
     transform: translateX(0%);
    }
+
+   @keyframes navHeaderFade{
+       from{
+            opacity: 0;
+            transform: translateX(50px);
+       }
+       to{
+            opacity: 1;
+            transform: translateX(0px);
+       }
+   }
+
+   .toggle .linha1 {
+       transform: rotate(-45deg) translate(-5px,6px);
+   }
+
+   .toggle .linha2 {
+    opacity: 0;
+   }
+
+   .toggle .linha3 {
+    transform: rotate(45deg) translate(-8px,-9px);
+   }
+}
+
+@media (max-width: 684px) {
+    .container_como_participar p {
+        width: 84vw;
+    }
+
+    .times_ao_vivo {
+        width: 28vw;
+    }
+}
+
+@media (max-width: 562px) {
+    .container_como_participar p {
+        line-height: 25px;
+    }
+
+    .ao_vivo {
+        height: 300px;
+    }
+
+    .container_ao_vivo {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .span_ao_vivo {
+        width: max-content;
+        font-size: 5rem;
+    }
+
+    .times_ao_vivo {
+        width: 36vw;
+    }
+
+    hr {
+        height: 1px;
+        width: 60vw;
+    }
+
+    .span_em_breve {
+        width: max-content;
+        font-size: 5rem;
+    }
+
+    .noticias_proximos_jogos {
+        height: 1980px;
+    }
+
+    .container_noticias {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    .box_noticia {
+        margin-bottom: 20px;
+    }
+
+    .proximos_jogos {
+        text-align: center;
+    }
+
+    .proximos_jogos h2 {
+        text-transform: uppercase;
+    }
+}
+
+
+@media (max-width: 476px) {
+    #logo {
+        width: 60vw;
+    }
+
+    .box_banner h1 {
+        font-size: 60px;
+        line-height: 98px;
+    }
+
+    .box_banner span {
+        font-size: 18px;
+        line-height: 10px;
+    }
+
+    .btn_banner {
+        margin-top: 35px;
+    }
+
+    .img_jogos {
+        width: 90%;
+    }
+
+    #fifa {
+        display: none;
+    }
+
+    .container_como_participar h2 {
+        font-size: 36px;
+    }
+
+    .container_como_participar p {
+        width: 85vw;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    #input_email {
+        width: 90vw;
+        min-width: unset;
+    }
+
+}
+
+@media (max-width: 451px) {
+    .container_como_participar h2 {
+        font-size: 31px;
+    }
+
+    .container_como_participar p {
+        width: 70vw;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 390px) {
+    .box_banner h1 {
+        font-size: 54px;
+
+    }
+
+    .box_banner span {
+        font-size: 17px;
+    }
+
+    .container_como_participar h2 {
+        font-size: 27px;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .links_footer {
+        width: 80vw;
+        justify-content: space-between;
+    }
+
+    .lista_footer {
+        width: min-content;
+    }
+}
+
+@media (max-width: 340px) {
+    .siga_nos {
+        width: 310px;
+    }
 }
