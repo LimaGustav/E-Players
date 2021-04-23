@@ -22,11 +22,20 @@ const navSlide = () => {
         // ANIMAÇÃO X DO BURGUER
         burguer.classList.toggle('toggle')
 
-        const navSome = () => {
-            navLinks.addEventListener("click", () => {
-                nav.classList.toggleClass('nav_ativa')
-            })
-        }
+
+    })
+}
+
+const navSome = () => {
+    // navLinks.addEventListener("click", () => {
+    //     nav.classList.toggle('nav_ativa')
+    //     burguer.classList.toggle("toggle")
+    // })
+    navLinks.forEach((link) => {
+        link.addEventListener("click", () => {
+            nav.classList.toggle('nav_ativa')
+            burguer.classList.toggle('toggle')
+        })
     })
 }
 
