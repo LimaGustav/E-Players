@@ -1,7 +1,9 @@
+const burguer = document.querySelector(".burguer")
+const nav = document.querySelector(".nav_header")
+const navLinks = document.querySelectorAll('.nav_header a')
+
+
 const navSlide = () => {
-    const burguer = document.querySelector('.burguer')
-    const nav = document.querySelector('.nav_header')
-    const navLinks = document.querySelectorAll('.nav_header a')
 
     //HAMBURGUER MENU
     burguer.addEventListener("click", () => {
@@ -20,14 +22,16 @@ const navSlide = () => {
         // ANIMAÇÃO X DO BURGUER
         burguer.classList.toggle('toggle')
 
+        const navSome = () => {
+            navLinks.addEventListener("click", () => {
+                nav.classList.toggleClass('nav_ativa')
+            })
+        }
     })
 }
 
-const navSome = () => {
-    navLinks.addEventListener("click", () => {
-        nav.classList.toggle('nav_ativa')
-    })
-}
+
 
 navSlide()
+
 navSome()

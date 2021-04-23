@@ -73,6 +73,31 @@
 
 }
 
+.label_input {
+    width: 146px;
+    height: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    background: #ABABAB;
+}
+
+.label_input:hover {
+    background: #8b8b8b;
+}
+
+.input_file_cadastro {
+    display: none;
+}
+
 .input_email_cadastro {
     width: 100%;
     max-width: 575px;
