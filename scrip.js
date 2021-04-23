@@ -35,6 +35,14 @@ const navSome = () => {
         link.addEventListener("click", () => {
             nav.classList.toggle('nav_ativa')
             burguer.classList.toggle('toggle')
+            navLinks.forEach((link, index)=> {
+                if(link.style.animation){
+                    link.style.animation = ''
+                }
+                else {
+                    link.style.animation = `navHeaderFade 0.5s ease forwards ${index / 7 + 0.4}s`
+                }
+            })
         })
     })
 }
