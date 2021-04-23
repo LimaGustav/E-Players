@@ -109,6 +109,10 @@ header {
     color: white;
 }
 
+.nav_header a:hover{
+    color: rgb(148, 148, 148);
+}
+
 .burguer {
     display: none;
 }
