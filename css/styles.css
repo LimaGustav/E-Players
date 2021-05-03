@@ -111,6 +111,7 @@ header {
 
 .nav_header a:hover{
     color: rgb(148, 148, 148);
+    font-size: 2.3rem;
 }
 
 .burguer {
@@ -405,6 +406,31 @@ hr {
 
 }
 
+/* .isadora_img_clicked {
+    position: absolute;
+
+    width: 80vw;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.isadora_clicked {
+    width: 40vw;
+    height: 40vh;
+} */
+
+.isadora_img{
+    cursor: pointer;
+}
+
+.box_noticia:hover {
+    box-shadow: -5px 4px 20px rgba(0, 0, 0, 0.9), 5px 4px 20px 2px rgba(0, 0, 0, 0.9);
+}
+
 .box_noticia2 {
     margin-top: 20px;
     margin-bottom: 69px;
@@ -416,6 +442,10 @@ hr {
 
     box-shadow: -5px 4px 20px rgba(0, 0, 0, 0.7), 5px 4px 20px 2px rgba(0, 0, 0, 0.7);
 
+}
+
+.box_noticia2:hover {
+    box-shadow: -5px 4px 20px rgba(0, 0, 0, 0.9), 5px 4px 20px 2px rgba(0, 0, 0, 0.9);
 }
 
 .box_noticia h3 {
@@ -805,7 +835,7 @@ hr {
         right: 0;
         z-index: 10;
         
-        height: 89vh;
+        height: 91vh;
         width: 50%;
         top: 80px;
 
@@ -922,6 +952,8 @@ hr {
         text-transform: uppercase;
     }
 }
+
+
 
 
 @media (max-width: 476px) {

@@ -171,3 +171,9 @@ table {
 .equipe {
     margin-top: 100px;
 }
+
+@media (max-width: 352px) {
+    .cadastro_banner h1 {
+        font-size: 35px;
+    }
+}

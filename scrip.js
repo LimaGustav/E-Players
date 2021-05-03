@@ -1,5 +1,7 @@
+const body = document.getElementById("body")
 const burguer = document.querySelector(".burguer")
 const nav = document.querySelector(".nav_header")
+const isadora = document.querySelector(".box_noticia")
 const navLinks = document.querySelectorAll('.nav_header a')
 
 
@@ -27,10 +29,6 @@ const navSlide = () => {
 }
 
 const navSome = () => {
-    // navLinks.addEventListener("click", () => {
-    //     nav.classList.toggle('nav_ativa')
-    //     burguer.classList.toggle("toggle")
-    // })
     navLinks.forEach((link) => {
         link.addEventListener("click", () => {
             nav.classList.toggle('nav_ativa')
@@ -47,8 +45,13 @@ const navSome = () => {
     })
 }
 
+// const abreNoticia = () => {
+//     isadora.addEventListener("click", () => {
+//         isadora.classList.add('isadora_img_clicked')
+//     })
+// }
 
 
 navSlide()
-
 navSome()
+// abreNoticia ()
